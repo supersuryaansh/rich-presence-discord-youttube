@@ -23,20 +23,20 @@ apps.post("/", (request, response) => {
   link = content.url;
   song = content.song;
    console.log('Playing now ' + content.song + ' by ' + content.artist + ' Time: ' + content.timeMax.split('/')[0].replace(' ', '')+content.timeMax.split('/')[1].replace(' ', ''));
-  update(content.song, content.artist,inTime,fiTime,link);
+  update(content.song, content.artist,inTime,"/"+fiTime,link);
   response.sendStatus(200);
 });
 
 apps.listen(3000, () => console.log('Ready Senpai!'));
 
-function update(song,artist,timeNow = "GitHub.com",timeMax = "supersuryaansh",link = "https://github.com/supersuryaansh/") {
+function update(song,artist,timeNow = "Paused",timeMax="",link = "https://github.com/supersuryaansh/discord-yt") {
   client.updatePresence({
     state: artist,
     details: song,
     largeImageKey: 'ytmusic',
     smallImageKey: 'play',
     instance: true,
-    buttons : [{label : timeNow + "/" + timeMax,url:link},
+    buttons : [{label : timeNow + timeMax,url:link},
     ]
   });
 }
