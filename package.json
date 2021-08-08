@@ -1,0 +1,15 @@
+{
+  "name": "discord-yt",
+  "version": "1.0.0",
+  "description": "Connect YouTube to Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "supersuryaansh",
+  "license": "GPC-3.0",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "express": "^4.17.1"
+  }
+}
