@@ -6,7 +6,7 @@ Discord-yt allows you to connect YouTube Music to Discord and display currently 
 #### [Windows | Linux](https://github.com/supersuryaansh/discord-yt/releases/)
 ## Installation
 Download the Windows or Linux file from above and unzip. Also Install the chrome extension by following the steps below.
-Chrome Extensions -> Enable Developer Mode -> Load Unpacked -> discord-yt -> select ChromeExtension folder.
+First download the crome extension and unzip after that Chrome Extensions -> Enable Developer Mode -> Load Unpacked -> discord-yt -> select ChromeExtension folder.
 
 ## Build Manually
 
