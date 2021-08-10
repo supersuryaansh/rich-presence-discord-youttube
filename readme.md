@@ -4,9 +4,9 @@ Discord-yt allows you to connect YouTube Music to Discord and display currently 
 
 ## Downloads
 #### [Windows | Linux](https://github.com/supersuryaansh/discord-yt/releases/)
-## Installation
+## Build Manually
 
-Clone the repository and build with npm
+To build manually Clone the repository and build with npm
 
 ```bash
 git clone https://github.com/supersuryaansh/discord-yt.git
