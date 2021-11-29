@@ -1,6 +1,6 @@
 # Rich-presence-discord-youtube
 
-Discord-yt allows you to connect YouTube Music to Discord and display currently playing song on your profile.
+Rich-presence-discord-youtube (Discord-yt previousely) allows you to connect YouTube Music to Discord and display currently playing song on your profile.
 
 ## Downloads
 #### [Windows | Linux](https://github.com/supersuryaansh/rich-presence-discord-youtube/releases/)
