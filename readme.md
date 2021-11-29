@@ -1,9 +1,9 @@
-# Discord-yt
+# Rich-presence-discord-youtube
 
 Discord-yt allows you to connect YouTube Music to Discord and display currently playing song on your profile.
 
 ## Downloads
-#### [Windows | Linux](https://github.com/supersuryaansh/discord-yt/releases/)
+#### [Windows | Linux](https://github.com/supersuryaansh/rich-presence-discord-youtube/releases/)
 ## Installation
 Download the Windows or Linux file from above and unzip. Also Install the chrome extension by following the steps below.
 First download the crome extension and unzip after that go to Chrome Extensions -> Enable Developer Mode -> Load Unpacked -> discord-yt -> select ChromeExtension folder.
@@ -13,7 +13,7 @@ First download the crome extension and unzip after that go to Chrome Extensions 
 To build manually Clone the repository and build with npm
 
 ```bash
-git clone https://github.com/supersuryaansh/discord-yt.git
+git clone https://github.com/supersuryaansh/rich-presence-discord-youtube.git
 cd discord-yt
 npm install
 ```
